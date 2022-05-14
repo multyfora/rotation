@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/UI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center|end"
+        android:text="0"
+        android:textSize="60sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#1C1C1C"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1"
+            android:layout_weight="1"
+            android:background="#1C1C1C">
+
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="AC">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="±">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="%">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="÷">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1"
+            android:layout_weight="1"
+            android:background="#1C1C1C">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="7">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="8">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="9"
+                app:strokeColor="#AE0909">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="X">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1"
+            android:layout_weight="1"
+            android:background="#1C1C1C">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="4">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="5">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="6">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="-">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1"
+            android:layout_weight="1"
+            android:background="#1C1C1C">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="1">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="2">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="3">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="+">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1"
+            android:layout_weight="1"
+            android:background="#1C1C1C">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="0.6666666666666"
+                android:background="#BA5A5A"
+                android:text="0">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text=".">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1"
+                android:layout_weight="1"
+                android:background="#BA5A5A"
+                android:text="=">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
